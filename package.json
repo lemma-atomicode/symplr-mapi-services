@@ -7,7 +7,7 @@
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "files": [
-    "src/**/.js"
+    "src/**/*.js"
   ],
   "author": "Emmanuel Martínez Fernández",
   "license": "ISC",
