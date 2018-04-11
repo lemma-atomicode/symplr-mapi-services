@@ -1,0 +1,17 @@
+{
+  "name": "symplr-mapi-services",
+  "version": "1.0.0",
+  "description": "Service componentes for the Symplr Main API",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Emmanuel Martínez Fernández",
+  "license": "ISC",
+  "dependencies": {
+    "symplr-mapi-daos": "github:lemma-atomicode/symplr-mapi-daos#dev"
+  },
+  "devDependencies": {
+    "chai-as-promised": "^7.1.1"
+  }
+}
