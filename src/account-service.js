@@ -1,4 +1,4 @@
-var SymplrError = require('../../../symplr-commons/src/symplr-error');
+var SymplrError = require('symplr-commons/src/symplr-error');
 var createAccount = async function(account){
     console.info('Creating account');    
     console.debug('Checking if account with name (%s) already exists', account.name);
